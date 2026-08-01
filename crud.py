@@ -2,7 +2,7 @@ db = {}
 
 
 def mostrar_menu():
-    print("\n--- Sistema CRUD ---")
+    print("\n--- SISTEMA CRUD PRINCIPAL ---")
     print("1. Crear | 2. Leer | 3. Actualizar | 4. Eliminar | 5. Salir")
 
 
