@@ -22,6 +22,14 @@ def actualizar(id, nuevo_nombre):
     else:
         print("ID no encontrado.")
 
-
+        
+def eliminar(id):
+    if id in db:
+        del db[id]
+        print(f"Eliminado: {id}")
+    else:
+        print("ID no encontrado.")
+  
+  
 if __name__ == "__main__":
     mostrar_menu()
